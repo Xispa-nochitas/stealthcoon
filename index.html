@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StealthCoon - Moda Urbana</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:ital,wght@1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="img/banner.png" alt="Banner StealthCoon" id="main-banner">
+    <div class="logo">
+      <h1>Comfy wear. Still fancy. Naturally.</h1>
+    </div>
+  </header>
+
+  <!-- Navegación -->
+  <nav>
+    <div class="nav-left">
+      <div class="user-dropdown">
+        <i class="fas fa-user-circle"></i>
+        <div class="dropdown-content">
+          <form>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required>
+            <input type="submit" value="Ingresar">
+            <p class="registro-mini">¿No tienes cuenta? <a href="registro.html">Regístrate</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-center">
+      <a href="#home">Home</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#coleccion">Colección</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <div class="nav-right">
+      <a href="carrito.html" class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Sección Nosotros -->
+  <section id="nosotros">
+    <h2>Sobre StealthCoon</h2>
+    <p>StealthCoon es una marca urbana que combina comodidad, estilo y un espíritu animal. Inspirada en el mapache, representamos la agilidad, la astucia y la presencia sutil pero firme.</p>
+    <p>Nos enfocamos en ofrecer prendas que se adaptan al ritmo de la ciudad, pero sin perder ese toque auténtico y rebelde que distingue a quienes no siguen la corriente. Desde chaquetas robustas hasta básicos con estilo, cada pieza está pensada para moverse contigo, para contar tu historia sin palabras.</p>
+    <p>Estamos comprometidos con el diseño sostenible, utilizando materiales de alta calidad que respetan tanto tu piel como el medio ambiente. Porque creemos que la moda urbana no es solo una estética, es una declaración de principios. En StealthCoon, vestir bien es un acto de identidad.</p>
+  </section>
+
+  <!-- Sección Colección -->
+  <section id="coleccion">
+    <h2>Colección</h2>
+    <div class="coleccion-contenido">
+      <div class="producto">
+        <img src="img/bomber.png" alt="Chaqueta Bomber">
+        <p>Chaqueta bomber - $29.990</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/tshirt.png" alt="Polera negra básica">
+        <p>Polera negra básica - $14.990</p>
+        <button>Agregar al carrito</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Galería -->
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="galeria-contenido">
+      <img src="img/modelxbomber.png" alt="ModeloBomber" class="galeria-img">
+      <img src="img/modelxtshirt.png" alt="ModeloPolera" class="galeria-img">
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LRFyz99OMWw" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="redes-contacto">
+      <p><i class="fab fa-instagram"></i> <a href="https://instagram.com/stealthcoon" target="_blank">@stealthcoon</a></p>
+      <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/56912345678" target="_blank">+56 9 1234 5678</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 StealthCoon - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
